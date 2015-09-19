@@ -1,0 +1,206 @@
+2015-09-18 23:36:54,283 [  39252]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 37 ms 
+2015-09-18 23:36:54,284 [  39253]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 33 files to update 
+2015-09-18 23:36:54,507 [  39476]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 223 ms 
+2015-09-18 23:36:55,064 [  40033]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 3 ms 
+2015-09-18 23:36:55,064 [  40033]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 0 files to update 
+2015-09-18 23:36:55,064 [  40033]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 0 ms 
+2015-09-18 23:36:55,272 [  40241]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+2015-09-18 23:36:55,354 [  40323]   INFO - plication.impl.ApplicationImpl - Not enough pooled threads; dumping threads into a file 
+2015-09-18 23:36:55,370 [  40339]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 37011 ms 
+2015-09-18 23:36:55,742 [  40711]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /home/oujp/soft/android-studio/lib/jna.jar:/home/oujp/soft/android-studio/lib/nanoxml-2.2.3.jar:/home/oujp/soft/android-studio/lib/picocontainer.jar:/home/oujp/soft/android-studio/lib/optimizedFileManager.jar:/home/oujp/soft/android-studio/lib/openapi.jar:/home/oujp/soft/android-studio/lib/util.jar:/home/oujp/soft/android-studio/lib/idea_rt.jar:/home/oujp/soft/android-studio/lib/jgoodies-forms.jar:/home/oujp/soft/android-studio/lib/netty-3.6.3.Final.jar:/home/oujp/soft/android-studio/lib/resources_en.jar:/home/oujp/soft/android-studio/lib/protobuf-2.4.1.jar:/home/oujp/soft/android-studio/lib/ecj-4.2.1.jar:/home/oujp/soft/android-studio/lib/javac2.jar:/home/oujp/soft/android-studio/lib/log4j.jar:/home/oujp/soft/android-studio/lib/asm4-all.jar:/home/oujp/soft/android-studio/lib/trove4j.jar:/home/oujp/soft/android-studio/lib/annotations.jar:/home/oujp/soft/android-studio/lib/idea.jar:/home/oujp/soft/android-studio/lib/jps-server.jar:/home/oujp/soft/android-studio/lib/oromatcher.jar:/home/oujp/soft/android-studio/lib/jna-utils.jar:/home/oujp/soft/android-studio/lib/jdom.jar:/home/oujp/soft/android-studio/sdk/lib/tools.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/resources_en.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/gradle-core-1.6.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/gradle-tooling-api-1.6.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/slf4j-api-1.7.2.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/gradle-wrapper-1.6.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/gradle-messaging-1.6.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/gradle.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/gradle-base-services-1.6.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/slf4j-simple-1.7.2.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/jsr305-1.3.9.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/guava-11.0.2.jar:/home/oujp/soft/android-studio/plugins/IntelliLang/lib/intellilang-jps-plugin.jar:/home/oujp/soft/android-studio/plugins/Groovy/lib/groovy-jps-plugin.jar:/home/oujp/soft/android-studio/plugins/maven/lib/maven-jps-plugin.jar:/home/oujp/soft/android-studio/plugins/maven/lib/maven3/plexus-utils-2.0.6.jar:/home/oujp/soft/android-studio/plugins/android/lib/jps/android-jps-plugin.jar:/home/oujp/soft/android-studio/plugins/android/lib/jps/android-gradle-jps.jar:/home/oujp/soft/android-studio/plugins/android/lib/android-common.jar:/home/oujp/soft/android-studio/plugins/android/lib/android-rt.jar:/home/oujp/soft/android-studio/plugins/android/lib/sdklib.jar:/home/oujp/soft/android-studio/plugins/android/lib/guava-13.0.1.jar:/home/oujp/soft/android-studio/plugins/android/lib/common.jar:/home/oujp/soft/android-studio/plugins/android/lib/jarutils.jar:/home/oujp/soft/android-studio/plugins/android/lib/layoutlib-api.jar:/usr/share/java/jayatanaag.jar 
+2015-09-18 23:36:55,899 [  40868]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 8053 ms 
+2015-09-18 23:36:57,129 [  42098]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: 23:36:57.123 [Connection worker] DEBUG o.g.t.i.provider.DefaultConnection - Tooling API provider 1.6 created. 
+2015-09-18 23:36:57,304 [  42273]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: 23:36:57.301 [Connection worker] DEBUG o.g.t.i.provider.ProviderConnection - Configuring logging to level: INFO 
+2015-09-18 23:36:57,335 [  42304]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Tooling API uses target gradle version: 1.6. 
+2015-09-18 23:36:57,793 [  42762]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Starting Gradle daemon 
+2015-09-18 23:36:57,834 [  42803]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Starting daemon process: workingDir = /home/oujp/.gradle/daemon/1.6, daemonArgs: [/usr/lib/jvm/java-6-openjdk-amd64/bin/java, -Dfile.encoding=UTF-8, -cp, /home/oujp/.gradle/wrapper/dists/gradle-1.6-bin/72srdo3a5eb3bic159kar72vok/gradle-1.6/lib/gradle-launcher-1.6.jar, org.gradle.launcher.daemon.bootstrap.GradleDaemon, 1.6, /home/oujp/.gradle/daemon, 10800000, 3de945b8-00d9-4e3b-bc46-1ae333e07e96, -Dfile.encoding=UTF-8] 
+2015-09-18 23:36:57,871 [  42840]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Starting process 'Gradle build daemon'. Working directory: /home/oujp/.gradle/daemon/1.6 Command: /usr/lib/jvm/java-6-openjdk-amd64/bin/java -Dfile.encoding=UTF-8 -cp /home/oujp/.gradle/wrapper/dists/gradle-1.6-bin/72srdo3a5eb3bic159kar72vok/gradle-1.6/lib/gradle-launcher-1.6.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 1.6 /home/oujp/.gradle/daemon 10800000 3de945b8-00d9-4e3b-bc46-1ae333e07e96 -Dfile.encoding=UTF-8 
+2015-09-18 23:36:57,883 [  42852]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: An attempt to initialize for well behaving parent process finished. 
+2015-09-18 23:36:57,899 [  42868]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Successfully started process 'Gradle build daemon' 
+2015-09-18 23:36:58,371 [  43340]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/cachedDictionary.xml file is null 
+2015-09-18 23:36:58,773 [  43742]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Process 'Gradle build daemon' finished with exit value 0 (state: DETACHED) 
+2015-09-18 23:36:58,773 [  43742]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: An attempt to start the daemon took 0.938 secs. 
+2015-09-18 23:36:58,814 [  43783]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Connected to the daemon. Dispatching Build{id=85b42ad2-b9e1-487a-9e0c-f5e9449b04f9.1, currentDir=/home/oujp/.AndroidStudioPreview/system/compile-server} request. 
+2015-09-18 23:37:02,638 [  47607]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: The TaskContainer.add() method has been deprecated and is scheduled to be removed in Gradle 2.0. Please use the create() method instead. 
+2015-09-18 23:37:03,937 [  48906]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:prepareDebugDependencies 
+2015-09-18 23:37:03,943 [  48912]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:compileDebugAidl 
+2015-09-18 23:37:04,133 [  49102]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:generateDebugBuildConfig 
+2015-09-18 23:37:04,210 [  49179]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:mergeDebugAssets 
+2015-09-18 23:37:04,272 [  49241]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:compileDebugRenderscript 
+2015-09-18 23:37:04,299 [  49268]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:mergeDebugResources 
+2015-09-18 23:37:04,423 [  49392]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:processDebugManifest 
+2015-09-18 23:37:04,513 [  49482]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:processDebugResources 
+2015-09-18 23:37:04,608 [  49577]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:compileDebug 
+2015-09-18 23:37:05,355 [  50324]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:dexDebug 
+2015-09-18 23:37:05,391 [  50360]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+2015-09-18 23:37:10,277 [  55246]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/fileColors.xml file is null 
+2015-09-18 23:37:11,108 [  56077]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:processDebugJavaRes UP-TO-DATE 
+2015-09-18 23:37:11,108 [  56077]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:validateDebugSigning 
+2015-09-18 23:37:11,114 [  56083]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:packageDebug 
+2015-09-18 23:37:11,661 [  56630]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:assembleDebug 
+2015-09-18 23:37:11,668 [  56637]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: BUILD SUCCESSFUL 
+2015-09-18 23:37:11,669 [  56638]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Total time: 14.75 secs 
+2015-09-18 23:37:11,721 [  56690]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Tooling API uses target gradle version: 1.6. 
+2015-09-18 23:37:11,758 [  56727]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Connected to the daemon. Dispatching Build{id=811036a2-3dce-4841-ab0d-3d1dc6310805.1, currentDir=/home/oujp/.AndroidStudioPreview/system/compile-server} request. 
+2015-09-18 23:37:12,475 [  57444]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: The TaskContainer.add() method has been deprecated and is scheduled to be removed in Gradle 2.0. Please use the create() method instead. 
+2015-09-18 23:37:13,231 [  58200]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:prepareDebugDependencies 
+2015-09-18 23:37:13,232 [  58201]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:compileDebugAidl 
+2015-09-18 23:37:13,249 [  58218]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:37:13,250 [  58219]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:generateDebugBuildConfig 
+2015-09-18 23:37:13,271 [  58240]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:37:13,272 [  58241]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:mergeDebugAssets 
+2015-09-18 23:37:13,278 [  58247]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:37:13,279 [  58248]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:compileDebugRenderscript 
+2015-09-18 23:37:13,290 [  58259]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:37:13,291 [  58260]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:mergeDebugResources 
+2015-09-18 23:37:13,312 [  58281]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:37:13,312 [  58281]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:processDebugManifest 
+2015-09-18 23:37:13,318 [  58287]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:37:13,320 [  58289]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:processDebugResources 
+2015-09-18 23:37:13,346 [  58315]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:37:13,346 [  58315]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:compileDebug 
+2015-09-18 23:37:13,388 [  58357]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:37:13,388 [  58357]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:dexDebug 
+2015-09-18 23:37:13,410 [  58379]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:37:13,410 [  58379]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:processDebugJavaRes 
+2015-09-18 23:37:13,411 [  58380]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:37:13,412 [  58381]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:validateDebugSigning 
+2015-09-18 23:37:13,414 [  58383]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:packageDebug 
+2015-09-18 23:37:13,431 [  58400]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:37:13,431 [  58400]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:assembleDebug UP-TO-DATE 
+2015-09-18 23:37:13,431 [  58400]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: BUILD SUCCESSFUL 
+2015-09-18 23:37:13,432 [  58401]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Total time: 1.714 secs 
+2015-09-18 23:37:13,475 [  58444]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 19229 ms: 0 min 19sec 
+2015-09-18 23:37:13,488 [  58457]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2015-09-18 23:37:13,489 [  58458]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2015-09-18 23:37:13,657 [  58626]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 6 ms 
+2015-09-18 23:37:13,657 [  58626]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 10 files to update 
+2015-09-18 23:37:13,707 [  58676]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 50 ms 
+2015-09-18 23:37:32,232 [  77201]   INFO - openapi.editor.impl.EditorImpl - Cache hits:256, total requests:292,file:///home/oujp/AndroidStudioProjects/MTrans/MTrans/src/main/res/layout/activity_fullscreen.xml 
+2015-09-18 23:37:32,302 [  77271]   INFO - ution.rmi.RemoteProcessSupport - Process finished with exit code 137 
+2015-09-18 23:37:32,322 [  77291]   INFO - ution.rmi.RemoteProcessSupport - Process finished with exit code 137 
+2015-09-18 23:37:32,350 [  77319]   INFO -    #org.jetbrains.io.WebServer - web server stopped 
+2015-09-18 23:37:32,366 [  77335]   INFO - ins.android.sdk.AndroidSdkData - DDMLib terminated 
+2015-09-18 23:37:32,367 [  77336]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2015-09-18 23:37:32,405 [  77374]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2015-09-18 23:37:32,406 [  77375]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2015-09-18 23:37:32,406 [  77375]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2015-09-18 23:37:32,406 [  77375]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2015-09-18 23:37:32,408 [  77377]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2015-09-18 23:37:32,416 [  77385]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated. 
+2015-09-18 23:37:32,416 [  77385]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2015-09-18 23:37:32,419 [  77388]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2015-09-18 23:37:32,424 [  77393]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2015-09-18 23:38:48,985 [  62040]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 26 ms 
+2015-09-18 23:38:48,986 [  62041]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 10 files to update 
+2015-09-18 23:38:49,007 [  62062]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 21 ms 
+2015-09-18 23:38:49,171 [  62226]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix icon path=/icons/androidPreview.png class=class icons.AndroidIcons 
+2015-09-18 23:38:49,595 [  62650]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+2015-09-18 23:38:49,828 [  62883]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 15 ms 
+2015-09-18 23:38:49,828 [  62883]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 21 files to update 
+2015-09-18 23:38:49,828 [  62883]   INFO - plication.impl.ApplicationImpl - Not enough pooled threads; dumping threads into a file 
+2015-09-18 23:38:50,009 [  63064]   INFO - plication.impl.ApplicationImpl - Not enough pooled threads; dumping threads into a file 
+2015-09-18 23:38:50,062 [  63117]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Build process started. Classpath: /home/oujp/soft/android-studio/lib/jna.jar:/home/oujp/soft/android-studio/lib/nanoxml-2.2.3.jar:/home/oujp/soft/android-studio/lib/picocontainer.jar:/home/oujp/soft/android-studio/lib/optimizedFileManager.jar:/home/oujp/soft/android-studio/lib/openapi.jar:/home/oujp/soft/android-studio/lib/util.jar:/home/oujp/soft/android-studio/lib/idea_rt.jar:/home/oujp/soft/android-studio/lib/jgoodies-forms.jar:/home/oujp/soft/android-studio/lib/netty-3.6.3.Final.jar:/home/oujp/soft/android-studio/lib/resources_en.jar:/home/oujp/soft/android-studio/lib/protobuf-2.4.1.jar:/home/oujp/soft/android-studio/lib/ecj-4.2.1.jar:/home/oujp/soft/android-studio/lib/javac2.jar:/home/oujp/soft/android-studio/lib/log4j.jar:/home/oujp/soft/android-studio/lib/asm4-all.jar:/home/oujp/soft/android-studio/lib/trove4j.jar:/home/oujp/soft/android-studio/lib/annotations.jar:/home/oujp/soft/android-studio/lib/idea.jar:/home/oujp/soft/android-studio/lib/jps-server.jar:/home/oujp/soft/android-studio/lib/oromatcher.jar:/home/oujp/soft/android-studio/lib/jna-utils.jar:/home/oujp/soft/android-studio/lib/jdom.jar:/home/oujp/soft/android-studio/sdk/lib/tools.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/resources_en.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/gradle-core-1.6.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/gradle-tooling-api-1.6.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/slf4j-api-1.7.2.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/gradle-wrapper-1.6.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/gradle-messaging-1.6.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/gradle.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/gradle-base-services-1.6.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/slf4j-simple-1.7.2.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/jsr305-1.3.9.jar:/home/oujp/soft/android-studio/plugins/gradle/lib/guava-11.0.2.jar:/home/oujp/soft/android-studio/plugins/IntelliLang/lib/intellilang-jps-plugin.jar:/home/oujp/soft/android-studio/plugins/Groovy/lib/groovy-jps-plugin.jar:/home/oujp/soft/android-studio/plugins/maven/lib/maven-jps-plugin.jar:/home/oujp/soft/android-studio/plugins/maven/lib/maven3/plexus-utils-2.0.6.jar:/home/oujp/soft/android-studio/plugins/android/lib/jps/android-jps-plugin.jar:/home/oujp/soft/android-studio/plugins/android/lib/jps/android-gradle-jps.jar:/home/oujp/soft/android-studio/plugins/android/lib/android-common.jar:/home/oujp/soft/android-studio/plugins/android/lib/android-rt.jar:/home/oujp/soft/android-studio/plugins/android/lib/sdklib.jar:/home/oujp/soft/android-studio/plugins/android/lib/guava-13.0.1.jar:/home/oujp/soft/android-studio/plugins/android/lib/common.jar:/home/oujp/soft/android-studio/plugins/android/lib/jarutils.jar:/home/oujp/soft/android-studio/plugins/android/lib/layoutlib-api.jar:/usr/share/java/jayatanaag.jar 
+2015-09-18 23:38:50,086 [  63141]   INFO - plication.impl.ApplicationImpl - Not enough pooled threads; dumping threads into a file 
+2015-09-18 23:38:50,100 [  63155]   INFO - plication.impl.ApplicationImpl - Not enough pooled threads; dumping threads into a file 
+2015-09-18 23:38:50,346 [  63401]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 518 ms 
+2015-09-18 23:38:50,396 [  63451]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/IntelliLang.xml file is null 
+2015-09-18 23:38:50,401 [  63456]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/codeStyleSettings.xml file is null 
+2015-09-18 23:38:50,401 [  63456]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $PROJECT_CONFIG_DIR$/projectCodeStyle.xml file is null 
+2015-09-18 23:38:50,409 [  63464]   INFO - r.impl.FileDocumentManagerImpl - reload activity_fullscreen.xml from disk? 
+2015-09-18 23:38:50,409 [  63464]   INFO - r.impl.FileDocumentManagerImpl -   documentStamp:24640 
+2015-09-18 23:38:50,409 [  63464]   INFO - r.impl.FileDocumentManagerImpl -   oldFileStamp:24175 
+2015-09-18 23:38:50,435 [  63490]   INFO - r.impl.FileDocumentManagerImpl - reload attrs.xml from disk? 
+2015-09-18 23:38:50,435 [  63490]   INFO - r.impl.FileDocumentManagerImpl -   documentStamp:24641 
+2015-09-18 23:38:50,435 [  63490]   INFO - r.impl.FileDocumentManagerImpl -   oldFileStamp:24176 
+2015-09-18 23:38:50,445 [  63500]   INFO - r.impl.FileDocumentManagerImpl - reload colors.xml from disk? 
+2015-09-18 23:38:50,445 [  63500]   INFO - r.impl.FileDocumentManagerImpl -   documentStamp:24642 
+2015-09-18 23:38:50,445 [  63500]   INFO - r.impl.FileDocumentManagerImpl -   oldFileStamp:24177 
+2015-09-18 23:38:50,454 [  63509]   INFO - r.impl.FileDocumentManagerImpl - reload styles.xml from disk? 
+2015-09-18 23:38:50,454 [  63509]   INFO - r.impl.FileDocumentManagerImpl -   documentStamp:24643 
+2015-09-18 23:38:50,454 [  63509]   INFO - r.impl.FileDocumentManagerImpl -   oldFileStamp:24178 
+2015-09-18 23:38:50,466 [  63521]   INFO - r.impl.FileDocumentManagerImpl - reload strings.xml from disk? 
+2015-09-18 23:38:50,467 [  63522]   INFO - r.impl.FileDocumentManagerImpl -   documentStamp:24644 
+2015-09-18 23:38:50,467 [  63522]   INFO - r.impl.FileDocumentManagerImpl -   oldFileStamp:24179 
+2015-09-18 23:38:50,473 [  63528]   INFO - r.impl.FileDocumentManagerImpl - reload styles.xml from disk? 
+2015-09-18 23:38:50,473 [  63528]   INFO - r.impl.FileDocumentManagerImpl -   documentStamp:24645 
+2015-09-18 23:38:50,473 [  63528]   INFO - r.impl.FileDocumentManagerImpl -   oldFileStamp:24180 
+2015-09-18 23:38:50,485 [  63540]   INFO - r.impl.FileDocumentManagerImpl - reload styles.xml from disk? 
+2015-09-18 23:38:50,485 [  63540]   INFO - r.impl.FileDocumentManagerImpl -   documentStamp:24646 
+2015-09-18 23:38:50,485 [  63540]   INFO - r.impl.FileDocumentManagerImpl -   oldFileStamp:24181 
+2015-09-18 23:38:50,502 [  63557]   INFO - plication.impl.ApplicationImpl - Not enough pooled threads; dumping threads into a file 
+2015-09-18 23:38:52,326 [  65381]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: 23:38:52.299 [Connection worker] DEBUG o.g.t.i.provider.DefaultConnection - Tooling API provider 1.6 created. 
+2015-09-18 23:38:52,483 [  65538]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: 23:38:52.480 [Connection worker] DEBUG o.g.t.i.provider.ProviderConnection - Configuring logging to level: INFO 
+2015-09-18 23:38:52,510 [  65565]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Tooling API uses target gradle version: 1.6. 
+2015-09-18 23:38:53,132 [  66187]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Connected to the daemon. Dispatching Build{id=a9c6df12-4bd1-4fe7-9f4d-b34e50dc8fcd.1, currentDir=/home/oujp/.AndroidStudioPreview/system/compile-server} request. 
+2015-09-18 23:38:54,047 [  67102]   INFO - attrs.AttributeDefinitionsImpl - Found tag with unknown parent: AndroidManifest.AndroidManifestCompatibleScreens 
+2015-09-18 23:38:54,179 [  67234]   INFO - attrs.AttributeDefinitionsImpl - Found tag with unknown parent: AndroidManifest.AndroidManifestCompatibleScreens 
+2015-09-18 23:38:54,177 [  67232]   INFO - attrs.AttributeDefinitionsImpl - Found tag with unknown parent: AndroidManifest.AndroidManifestCompatibleScreens 
+2015-09-18 23:38:54,344 [  67399]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: The TaskContainer.add() method has been deprecated and is scheduled to be removed in Gradle 2.0. Please use the create() method instead. 
+2015-09-18 23:38:55,752 [  68807]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:prepareDebugDependencies 
+2015-09-18 23:38:55,765 [  68820]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:compileDebugAidl 
+2015-09-18 23:38:55,928 [  68983]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:generateDebugBuildConfig 
+2015-09-18 23:38:55,976 [  69031]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:mergeDebugAssets 
+2015-09-18 23:38:56,141 [  69196]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:compileDebugRenderscript 
+2015-09-18 23:38:56,177 [  69232]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:mergeDebugResources 
+2015-09-18 23:38:56,388 [  69443]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 65886 ms 
+2015-09-18 23:38:56,416 [  69471]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:processDebugManifest 
+2015-09-18 23:38:56,469 [  69524]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:processDebugResources 
+2015-09-18 23:38:57,206 [  70261]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 14300 ms 
+2015-09-18 23:38:57,599 [  70654]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:compileDebug 
+2015-09-18 23:38:57,965 [  71020]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:dexDebug 
+2015-09-18 23:38:58,189 [  71244]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stderr]: Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+2015-09-18 23:39:02,394 [  75449]   INFO - s.impl.stores.FileBasedStorage - Document was not loaded for $APP_CONFIG$/cachedDictionary.xml file is null 
+2015-09-18 23:39:06,634 [  79689]   INFO - ution.rmi.RemoteProcessSupport - Process finished with exit code 0 
+2015-09-18 23:39:06,826 [  79881]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:processDebugJavaRes UP-TO-DATE 
+2015-09-18 23:39:06,827 [  79882]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:validateDebugSigning 
+2015-09-18 23:39:06,828 [  79883]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:packageDebug 
+2015-09-18 23:39:07,116 [  80171]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:assembleDebug 
+2015-09-18 23:39:07,122 [  80177]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: BUILD SUCCESSFUL 
+2015-09-18 23:39:07,128 [  80183]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Total time: 15.165 secs 
+2015-09-18 23:39:07,185 [  80240]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Tooling API uses target gradle version: 1.6. 
+2015-09-18 23:39:07,232 [  80287]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Connected to the daemon. Dispatching Build{id=38f60073-c02e-480f-a589-ae1d176be878.1, currentDir=/home/oujp/.AndroidStudioPreview/system/compile-server} request. 
+2015-09-18 23:39:07,829 [  80884]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: The TaskContainer.add() method has been deprecated and is scheduled to be removed in Gradle 2.0. Please use the create() method instead. 
+2015-09-18 23:39:08,631 [  81686]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:prepareDebugDependencies 
+2015-09-18 23:39:08,632 [  81687]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:compileDebugAidl 
+2015-09-18 23:39:08,638 [  81693]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:39:08,638 [  81693]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:generateDebugBuildConfig 
+2015-09-18 23:39:08,655 [  81710]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:39:08,655 [  81710]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:mergeDebugAssets 
+2015-09-18 23:39:08,656 [  81711]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:39:08,657 [  81712]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:compileDebugRenderscript 
+2015-09-18 23:39:08,663 [  81718]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:39:08,663 [  81718]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:mergeDebugResources 
+2015-09-18 23:39:08,675 [  81730]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:39:08,675 [  81730]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:processDebugManifest 
+2015-09-18 23:39:08,681 [  81736]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:39:08,682 [  81737]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:processDebugResources 
+2015-09-18 23:39:08,699 [  81754]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:39:08,699 [  81754]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:compileDebug 
+2015-09-18 23:39:08,718 [  81773]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:39:08,718 [  81773]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:dexDebug 
+2015-09-18 23:39:08,729 [  81784]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:39:08,729 [  81784]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:processDebugJavaRes UP-TO-DATE 
+2015-09-18 23:39:08,730 [  81785]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:validateDebugSigning 
+2015-09-18 23:39:08,733 [  81788]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:packageDebug 
+2015-09-18 23:39:08,744 [  81799]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: UP-TO-DATE 
+2015-09-18 23:39:08,744 [  81799]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: :MEditor:assembleDebug UP-TO-DATE 
+2015-09-18 23:39:08,744 [  81799]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: BUILD SUCCESSFUL 
+2015-09-18 23:39:08,745 [  81800]   INFO - j.compiler.server.BuildManager - BUILDER_PROCESS [stdout]: Total time: 1.558 secs 
+2015-09-18 23:39:08,780 [  81835]   INFO - lij.compiler.impl.CompilerUtil - 	COMPILATION FINISHED (BUILD PROCESS); Errors: 0; warnings: 0 took 19827 ms: 0 min 19sec 
+2015-09-18 23:39:11,741 [  84796]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 494 ms 
+2015-09-18 23:39:11,742 [  84797]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 2749 files to update 
+2015-09-18 23:39:19,357 [  92412]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 7615 ms 
+2015-09-18 23:39:22,308 [  95363]   INFO - ution.rmi.RemoteProcessSupport - Process finished with exit code 137 
+2015-09-18 23:39:24,854 [  97909]   INFO -    #org.jetbrains.io.WebServer - web server stopped 
+2015-09-18 23:39:24,870 [  97925]   INFO - ins.android.sdk.AndroidSdkData - DDMLib terminated 
+2015-09-18 23:39:24,871 [  97926]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2015-09-18 23:39:25,092 [  98147]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2015-09-18 23:39:25,092 [  98147]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2015-09-18 23:39:25,092 [  98147]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2015-09-18 23:39:25,093 [  98148]   INFO - .history.utils.LocalHistoryLog - Purging local history... 
+2015-09-18 23:39:25,095 [  98150]   INFO - .history.utils.LocalHistoryLog - Local history storage successfully closed. 
+2015-09-18 23:39:25,101 [  98156]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated. 
+2015-09-18 23:39:25,101 [  98156]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2015-09-18 23:39:25,112 [  98167]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2015-09-18 23:39:25,145 [  98200]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
