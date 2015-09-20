@@ -1,56 +1,36 @@
 package com.jpou.meditor;
 
-import com.jpou.ffmpeg.Transcoding;
+import com.ipaulpro.afilechooser.utils.FileUtils;
 import com.jpou.meditor.util.SystemUiHider;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.Handler;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Toast;
 
-/**
- * An example full-screen activity that shows and hides the system UI (i.e.
- * status bar and navigation/system bar) with user interaction.
- * 
- * @see SystemUiHider
- */
 public class FullscreenActivity extends Activity {
-	
-	private static final String TAG = "com.jpou.mditor";
-	/**
-	 * Whether or not the system UI should be auto-hidden after
-	 * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
-	 */
+
+	private static final String TAG = "com.jpou.mditor.FullscreenActivity";
+
 	private static final boolean AUTO_HIDE = true;
 
-	/**
-	 * If {@link #AUTO_HIDE} is set, the number of milliseconds to wait after
-	 * user interaction before hiding the system UI.
-	 */
 	private static final int AUTO_HIDE_DELAY_MILLIS = 3000;
 
-	/**
-	 * If set, will toggle the system UI visibility upon interaction. Otherwise,
-	 * will show the system UI visibility upon interaction.
-	 */
 	private static final boolean TOGGLE_ON_CLICK = true;
 
-	/**
-	 * The flags to pass to {@link SystemUiHider#getInstance}.
-	 */
 	private static final int HIDER_FLAGS = SystemUiHider.FLAG_HIDE_NAVIGATION;
 
-	/**
-	 * The instance of the {@link SystemUiHider} for this activity.
-	 */
 	private SystemUiHider mSystemUiHider;
-	
-	private Transcoding mTrans;
+
+	private static final int REQUEST_CODE = 6384; // onActivityResult request
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -61,8 +41,6 @@ public class FullscreenActivity extends Activity {
 		final View controlsView = findViewById(R.id.fullscreen_content_controls);
 		final View contentView = findViewById(R.id.fullscreen_content);
 
-		// Set up an instance of SystemUiHider to control the system UI for
-		// this activity.
 		mSystemUiHider = SystemUiHider.getInstance(this, contentView,
 				HIDER_FLAGS);
 		mSystemUiHider.setup();
@@ -76,10 +54,6 @@ public class FullscreenActivity extends Activity {
 					@TargetApi(Build.VERSION_CODES.HONEYCOMB_MR2)
 					public void onVisibilityChange(boolean visible) {
 						if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR2) {
-							// If the ViewPropertyAnimator API is available
-							// (Honeycomb MR2 and later), use it to animate the
-							// in-layout UI controls at the bottom of the
-							// screen.
 							if (mControlsHeight == 0) {
 								mControlsHeight = controlsView.getHeight();
 							}
@@ -92,21 +66,16 @@ public class FullscreenActivity extends Activity {
 									.translationY(visible ? 0 : mControlsHeight)
 									.setDuration(mShortAnimTime);
 						} else {
-							// If the ViewPropertyAnimator APIs aren't
-							// available, simply show or hide the in-layout UI
-							// controls.
 							controlsView.setVisibility(visible ? View.VISIBLE
 									: View.GONE);
 						}
 
 						if (visible && AUTO_HIDE) {
-							// Schedule a hide().
 							delayedHide(AUTO_HIDE_DELAY_MILLIS);
 						}
 					}
 				});
 
-		// Set up the user interaction to manually show or hide the system UI.
 		contentView.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
@@ -118,38 +87,16 @@ public class FullscreenActivity extends Activity {
 			}
 		});
 
-		// Upon interacting with UI controls, delay any scheduled hide()
-		// operations to prevent the jarring behavior of controls going away
-		// while interacting with the UI.
 		findViewById(R.id.dummy_button).setOnTouchListener(
 				mDelayHideTouchListener);
+		findViewById(R.id.dummy_button).setOnClickListener(new View.OnClickListener() {
 
-		Handler handler = new Handler();
-		handler.post(new Runnable(){
-			public void run() {
-				try {
-					Log.d(TAG,
-							"enter 00000 -----------------------------------------");
-					final String sdDir = Environment
-							.getExternalStorageDirectory().toString();
-					Log.d(TAG, sdDir + "-----------------------------------------");
-					Log.d(TAG,
-							"enter 11111 -----------------------------------------");
-					mTrans = new Transcoding();
-					if(mTrans.startTrans(sdDir + "/test.3gp", sdDir + "/test/test.avi")){
-						Log.d(TAG,
-								"Success -----------------------------------------");
-					} else {
-						Log.d(TAG,
-								"Failed -----------------------------------------");
-					}
-					
-					Log.d(TAG,
-							"enter 333333 -----------------------------------------");
-				} catch (Exception e) {
-
-				}
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				showChooser();
 			}
+			
 		});
 	}
 
@@ -172,7 +119,8 @@ public class FullscreenActivity extends Activity {
 		@Override
 		public boolean onTouch(View view, MotionEvent motionEvent) {
 			if (AUTO_HIDE) {
-				delayedHide(AUTO_HIDE_DELAY_MILLIS);
+				 delayedHide(AUTO_HIDE_DELAY_MILLIS);
+				//showChooser();
 			}
 			return false;
 		}
@@ -193,5 +141,49 @@ public class FullscreenActivity extends Activity {
 	private void delayedHide(int delayMillis) {
 		mHideHandler.removeCallbacks(mHideRunnable);
 		mHideHandler.postDelayed(mHideRunnable, delayMillis);
+	}
+
+	private void showChooser() {
+		// Use the GET_CONTENT intent from the utility class
+		Intent target = FileUtils.createGetContentIntent();
+		// Create the chooser Intent
+		Intent intent = Intent.createChooser(target, "Select Vido");
+		try {
+			startActivityForResult(intent, REQUEST_CODE);
+		} catch (ActivityNotFoundException e) {
+			// The reason for the existence of aFileChooser
+		}
+	}
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		switch (requestCode) {
+		case REQUEST_CODE:
+			// If the file selection was successful
+			if (resultCode == RESULT_OK) {
+				if (data != null) {
+					// Get the URI of the selected file
+					final Uri uri = data.getData();
+					Log.i(TAG, "Uri = " + uri.toString());
+					try {
+						// Get the file path from the URI
+						final String path = FileUtils.getPath(this, uri);
+						Toast.makeText(FullscreenActivity.this,
+								"File Selected: " + path, Toast.LENGTH_LONG)
+								.show();
+						Log.d(TAG, "start TransService");
+						Intent intent = new Intent(FullscreenActivity.this,
+								TransService.class);
+						intent.putExtra("srcVideo", path);
+						startService(intent);
+					} catch (Exception e) {
+						Log.e("FileSelectorTestActivity", "File select error",
+								e);
+					}
+				}
+			}
+			break;
+		}
+		super.onActivityResult(requestCode, resultCode, data);
 	}
 }
